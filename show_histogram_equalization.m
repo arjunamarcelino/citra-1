@@ -13,5 +13,5 @@ function show_histogram_equalization(file)
         end
     end
 
-    imwrite(img,"output.bmp");
+    imwrite(img,"output.jpg");
 end

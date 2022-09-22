@@ -13,5 +13,5 @@ function show_histogram_specification(file1, file2)
         end
     end
 
-    imwrite(img,"output.bmp");
+    imwrite(img,"output.jpg");
 end

@@ -20,5 +20,5 @@ function image_brightening(file, a, b)
         end
     end
 
-    imwrite(img, "output.bmp");
+    imwrite(img, "output.jpg");
 end

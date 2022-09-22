@@ -46,7 +46,7 @@ function contrast_stretching(file)
         end
     end
     
-    imwrite(img,"output.bmp");
+    imwrite(img,"output.jpg");
 end
 
 function y = y(x,rmin,rmax,smin,smax)

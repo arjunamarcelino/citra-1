@@ -20,5 +20,5 @@ function transformasi_log(file, c)
         end
     end
 
-    imwrite(img, "output.bmp");
+    imwrite(img, "output.jpg");
 end
