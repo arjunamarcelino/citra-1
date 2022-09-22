@@ -6,6 +6,7 @@ function transformasi_pangkat(file, c, y)
     for k = 1 : ndepth
         for i = 1: nrow
             for j = 1 : ncoll
+                y = round(y);
                 new_pix = (img(i,j,k) ^ y) * c;
 
                 %trimnming

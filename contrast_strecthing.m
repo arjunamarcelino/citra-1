@@ -24,7 +24,7 @@ function contrast_stretching(file)
 
     disp(rmax);
     disp(rmin);
-    temp = [1:256];
+    temp = [1:255];
     
     for i=1:255
         pix = y(i,rmin,rmax,smin,smax);
@@ -41,7 +41,7 @@ function contrast_stretching(file)
     for k=1:ndepth
         for i=1:nrow
             for j=1:ncoll
-                img(i,j,k) = temp(img(i,j,k));
+                img(i,j,k) = temp(img(i,j,k)+1);
             end
         end
     end
