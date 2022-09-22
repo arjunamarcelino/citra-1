@@ -20,5 +20,5 @@ function transformasi_pangkat(file, c, y)
         end
     end
 
-    imwrite(img, "output.jpg");
+    imwrite(img, "output.bmp");
 end
